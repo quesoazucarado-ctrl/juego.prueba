@@ -282,9 +282,7 @@ if enviar:
         st.session_state.quiz = generar_quiz()
 
         st.rerun()
-```
 
-### `requirements.txt`
 
 
 
