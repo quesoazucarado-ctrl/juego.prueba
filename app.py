@@ -298,9 +298,7 @@ Tu repositorio puede quedar así:
 
 ```text
 quiz-machine-learning/
-│
-├── app.py
-└── requirements.txt
+
 ```
 
 Luego, en **Streamlit Community Cloud**, seleccionas el repositorio, eliges `app.py` como archivo principal y haces el deploy.
