@@ -1,4 +1,4 @@
-```python
+
 import streamlit as st
 import random
 
@@ -286,21 +286,5 @@ if enviar:
 
 ### `requirements.txt`
 
-Crea también este archivo en el repositorio:
 
-```txt
-streamlit
-```
 
-### Estructura de GitHub
-
-Tu repositorio puede quedar así:
-
-```text
-quiz-machine-learning/
-
-```
-
-Luego, en **Streamlit Community Cloud**, seleccionas el repositorio, eliges `app.py` como archivo principal y haces el deploy.
-
-Una cosa importante: **cada vez que el usuario recarga/genera un nuevo cuestionario se vuelven a elegir 5 de las 10 preguntas y se mezclan sus alternativas**, así que no verá siempre el mismo quiz.
